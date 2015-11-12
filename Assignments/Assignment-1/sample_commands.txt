@@ -1,0 +1,56 @@
+(a) echo hello world
+
+Echo is used to present a line of text, in this case "hello world". Echo essentially echoes the inputted argument back to the 
+user as output. 
+
+
+(b) echo {con,pre}{sent,fer}{s,ed}
+
+This echo with the swirly brakets essentially does an expansion like in Calculus with the multiplication of bracketed 
+polynomials except this time with strings attaching to the arguments. It looks at the first argument of the first pair of swirly
+bracketed terms and then first argument of the second pair and then also the first argument of the third pair and conbines them
+in this order to come up with a combined string similar to the distributive property specifically "FOIL". This command
+then takes the first argument of the first pair and merges it with the second argument of the second pair then also merges to the
+second argument of the third pair. Following this pattern, with three pairs, there is a total of 8 results. It seems
+the first pair is more a prefix, the second pair as a root word and the third pair as a suffix that ends up with each 
+combination of the merging pairs in this pattern. 
+
+(c) date
+
+This command takes the exact recorded date attained from the active date from the laptop itself and outputs it with the day
+then the month then the date then the exact time including seconds and then the time zone then finally the year. 
+
+(d) whoami
+
+This command outputs the current userid for the account in use
+
+(e) cal 2000
+
+This command outputs the calendar in the classic calendar format with each heading for the month and below it the chart
+format with the days and dates organized as a calendar. In this case, with the 2000 argument, the output is the full year 
+of all 12 months in calendar chart format for the year 2000. If another year was inputted as the argument, then the output
+would be the calendar for that year with all its months in the classic calendar format. 
+
+(f) cal 9 1752
+
+This command outputs the calendar for the 9th month for the year 1752. The first argument is for the month and the second
+being for the year. It prints out the monthly calendar with the classic calendar format with the days as columns except this time
+for only 1 specified month for a specified year.
+
+(g) bc -l
+
+This command first outputs the copyrights and the information about the creators of the terminal which is Free Software 
+Foundation, Inc. It also states it is a free software with absolutely no warranty. By, typing warranty and entering, it will 
+proceed to more detail about the waranty situation with mention of the Liecenses, and their businss address. It is also an
+arbitrary precision calculator language.
+
+(h) echo 5+4 | bc -l
+
+This command uses a combination of commands, firstly using echo as a means to print out the result of the argument right after it,
+in this case "5+4", but to do the actual calculation, without just printing out "5+4", it needs to pipe the stream of data, in 
+this case the "5+4" to a filter which in this case is the arbitrary precision calculator, bc -l which then runs through the bc
+and transforms the input of "5+4" from the pipe to bc back to echo to display the result of the piping which ends up printing 9.
+
+
+ 
+
