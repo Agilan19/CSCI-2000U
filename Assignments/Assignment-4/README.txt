@@ -31,3 +31,25 @@ Assignment-4 directory and then I right clicked
 my Source_data_for_CFR_vaccine_map_abridged.csv file and chose Open With
 Mousepad and the columns are all perfectly seperated by only a "," for
 all the rows. 
+
+8. I noticed there were several errors with the 
+Source_data_for_CFR_vaccine_map.xlsx file itself as many Cases were labelled
+"Unknown" and this can not be read as a numerical value and so I set them
+to be zero for the program to function. There was also many degree signs, 
+quotation marks, and blanks within the table that needed to be corrected 
+as the Python functions need the file to be consistent and so these misplaced
+quotation marks, and degree signs were removed manually from the csv file
+which allowed the program to work as intended. The blanks within the table 
+were replaced with a 0. Once, all the manual editing to remove all these 
+out of place table errors were fixed, the program worked perfectly capturing
+all the data and producing the proper plots as intended. 
+
+Files in the Directory:
+
+– README.txt
+– white_wash.ipynb
+– Source_data_for_CFR_vaccine_map_abridged.csv
+– cfr_map.ipynb
+– data_process.ipynb
+
+
