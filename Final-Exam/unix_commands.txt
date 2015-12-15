@@ -14,7 +14,8 @@ In the dialog box that appeared, I set "From row: " to 3.
 # Enter the relevant Unix command(s) used below as well as the number
 # of students in the list.
 
-
+There are 130 distinct students in this list. I manually checked after 
+opening the csv file using loffice. 
 
 
 # part (c)
