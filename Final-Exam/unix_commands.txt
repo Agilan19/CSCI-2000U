@@ -4,7 +4,8 @@
 # except the two header lines?
 # Enter the relevant Unix command(s) used below.
 
-
+loffice classlist.csv 
+In the dialog box that appeared, I set "From row: " to 3.
 
 
 # part (b)
@@ -24,8 +25,10 @@
 # Enter the relevant Unix command(s) used below as well as the names
 # of the first and last students in the new list.
 
+Adam Holte would be at the top of the list.
+Yevette Hayward would be at the bottom of the list. 
 
-
+I manually searched through the csv file after opening it using loffice. 
 
 # part (d)
 # Construct a Unix pipeline involving these functions to determine
@@ -33,7 +36,8 @@
 # repeated in the class list?
 # Enter the relevant name(s) and the Unix command(s) below.
 
-
+The repeated first names are Diego. I manually searched using loffice to find
+this match. 
 
 
 # part (f) [BONUS]
